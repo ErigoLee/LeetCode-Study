@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution(object): # Time Limit Exceeded - O(n^3)
     def threeSum(self, nums):
         """
         :type nums: List[int]

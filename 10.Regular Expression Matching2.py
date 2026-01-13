@@ -1,4 +1,4 @@
-class Solution(object): 
+class Solution(object): # this function is incomplete (ex: s = "aaa", p = "ab*a*c*a" returns False - actually True)
     def isMatch(self, s, p):
         """
         :type s: str

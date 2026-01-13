@@ -4,7 +4,6 @@ class Solution(object):
         :type height: List[int]
         :rtype: int
         """
-        half = len(height)//2
         left = 0
         right = len(height)-1
         result = 0

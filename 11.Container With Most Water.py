@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution(object): ## Time Limit Exceeded - O(n^2)
     def maxArea(self, height):
         """
         :type height: List[int]

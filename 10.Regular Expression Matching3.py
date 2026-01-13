@@ -1,6 +1,5 @@
-class Solution(object): 
+class Solution(object): # Dynamic Programming 
     def dp(self, s, p, i, j, memo):
-        print(memo)
         if (i, j) in memo:
             return memo[(i, j)]
         if j == len(p):

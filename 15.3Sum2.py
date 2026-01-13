@@ -1,4 +1,4 @@
-class Solution(object): # Time Limit Exceeded - O(n^3)
+class Solution(object):
     def threeSum(self, nums):
         """
         :type nums: List[int]
@@ -10,13 +10,13 @@ class Solution(object): # Time Limit Exceeded - O(n^3)
             left = i+1
             right = len(nums)-1
             while left < right:
-                print("a")
                 if nums[i] + nums[left] + nums[right] == 0:
                     temp = [nums[i],nums[left],nums[right]]
                     temp.sort()
                     if not temp in result:
                         result.append(temp)
-                    break
+                    left = left + 1
+                    right = right - 1
                 elif nums[i] + nums[left] + nums[right] < 0:
                     left = left + 1
                 else:

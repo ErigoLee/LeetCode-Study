@@ -1,5 +1,8 @@
 #include <iostream>
 #include <string>
+
+using namespace std;
+
 struct ListNode {
     int val;
     ListNode *next;
@@ -77,5 +80,7 @@ int main() {
     l2_2->val = 4;
     l2_1->next = l2_2;
     ListNode* result = s.addTwoNumbers(l1, l2);
+    printf("Result: T");
+    cout << "result: " << endl; 
     return 0;
 }
