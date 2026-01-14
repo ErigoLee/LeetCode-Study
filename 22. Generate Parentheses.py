@@ -1,8 +1,5 @@
-class Solution(object):
-    
+class Solution(object):   
     def makingParenthesis(self, m, p, n, memo):
-        
-        
         if m == 0 and p == n:
             return memo
         
