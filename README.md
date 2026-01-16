@@ -14,7 +14,7 @@ I try to provide an explanation for every solution whenever possible.
 
 
 ## 📌 Stats
-![Solved](https://img.shields.io/badge/Solved-123-blue)
-![Easy](https://img.shields.io/badge/Easy-80-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-35-yellow)
-![Hard](https://img.shields.io/badge/Hard-8-red)
+![Solved](https://img.shields.io/badge/Solved-29-blue)
+![Easy](https://img.shields.io/badge/Easy-9-brightgreen)
+![Medium](https://img.shields.io/badge/Medium-16-yellow)
+![Hard](https://img.shields.io/badge/Hard-4-red)
