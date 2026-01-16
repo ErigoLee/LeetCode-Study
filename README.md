@@ -18,3 +18,9 @@ I try to provide an explanation for every solution whenever possible.
 ![Easy](https://img.shields.io/badge/Easy-9-brightgreen)
 ![Medium](https://img.shields.io/badge/Medium-16-yellow)
 ![Hard](https://img.shields.io/badge/Hard-4-red)
+
+
+## 📂 Problems
+**1. Two Sum**  — [Code]([solutions/0001-two-sum](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/1.Two%20Sum/1.Two%20Sum.py)) | [Explanation] *(In progress)* </br>
+**2. Add Two Numbers**  — [Code]([solutions/0001-two-sum]([https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/1.Two%20Sum/1.Two%20Sum.py](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/2.AddTwoNum/2.AddTwoNum.py))) | [Explanation] *(In progress)* </br>
+
