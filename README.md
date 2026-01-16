@@ -21,6 +21,6 @@ I try to provide an explanation for every solution whenever possible.
 
 
 ## 📂 Problems
-**1. Two Sum**  — [Code]([solutions/0001-two-sum](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/1.Two%20Sum/1.Two%20Sum.py)) | [Explanation] *(In progress)* </br>
-**2. Add Two Numbers**  — [Code]([solutions/0001-two-sum]([https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/1.Two%20Sum/1.Two%20Sum.py](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/2.AddTwoNum/2.AddTwoNum.py))) | [Explanation] *(In progress)* </br>
+**1. Two Sum**  — [Code](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/1.Two%20Sum/1.Two%20Sum.py) | [Explanation] *(In progress)* </br>
+**2. Add Two Numbers**  — [Code](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/2.AddTwoNum/2.AddTwoNum.py) | [Explanation] *(In progress)* </br>
 
