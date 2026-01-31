@@ -14,10 +14,10 @@ I try to provide an explanation for every solution whenever possible.
 
 
 ## 📌 Stats
-![Solved](https://img.shields.io/badge/Solved-29-blue)
-![Easy](https://img.shields.io/badge/Easy-9-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-16-yellow)
-![Hard](https://img.shields.io/badge/Hard-4-red)
+![Solved](https://img.shields.io/badge/Solved-34-blue)
+![Easy](https://img.shields.io/badge/Easy-9-brightgreen) 
+![Medium](https://img.shields.io/badge/Medium-19-yellow) 
+![Hard](https://img.shields.io/badge/Hard-6-red)  
 
 
 ## 📂 Problems
@@ -50,3 +50,8 @@ I try to provide an explanation for every solution whenever possible.
 **27. [Remove Element](https://leetcode.com/problems/remove-element/description/)** -[Code](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/27.Remove%20Element/27.Remove%20Element.py)   |  [Explanation] *(In progress)* </br>
 **28. [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)** - [Code](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/28.Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String/28.Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String.py)   |  [Explanation] *(In progress)* </br>
 **29. [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)** - [Code](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/29.Divide%20Two%20Integers/29.Divide%20Two%20Integers.py)   |  [Explanation] *(In progress)* </br>
+**30. [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)** - [Code](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/30.Substring%20with%20Concatenation%20of%20All%20Words/30.Substring%20with%20Concatenation%20of%20All%20Words.py) |  [Explanation] *(In progress)* </br>
+**31. [Next Permutation](https://leetcode.com/problems/next-permutation/description/)** - [Code](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/31.%20Next%20Permutation/31.%20Next%20Permutation.py)  |  [Explanation] *(In progress)* </br>
+**32. [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)** - [Code](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/32.%20Longest%20Valid%20Parentheses/32.%20Longest%20Valid%20Parentheses2.py)   |  [Explanation] *(In progress)* </br>
+**33. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)** - [Code](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/33.Search%20in%20Rotated%20Sorted%20Array/33.Search%20in%20Rotated%20Sorted%20Array.py)   |  [Explanation](https://github.com/ErigoLee/LeetCode-Study/blob/main/%20Problem%20solving%20explanation/33.Search%20in%20Rotated%20Sorted%20Array.md)
+**34. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)**  - [Code](https://github.com/ErigoLee/LeetCode-Study/blob/main/Solutions/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.py)   |  [Explanation](https://github.com/ErigoLee/LeetCode-Study/blob/main/%20Problem%20solving%20explanation/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md)
