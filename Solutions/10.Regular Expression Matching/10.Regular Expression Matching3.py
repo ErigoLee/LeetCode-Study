@@ -10,6 +10,7 @@ class Solution(object): # Dynamic Programming
         else:
             ans = first_match and self.dp(s, p, i + 1, j + 1, memo)
         memo[(i, j)] = ans
+        print(memo)
         return ans
     def isMatch(self, s, p):
         """

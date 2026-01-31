@@ -1,15 +1,54 @@
-class Solution(object): 
-    def exp(self, s, p_list, i, memo, sharp_index, add_element):
-        if len(memo) == len(s):
-            memo_str = "".join(memo)
-            if memo_str == p:
-                return True
+class Solution(object):  ## Time Limit Exceeded
+    def dp(self, s, p, i, j, memo):
+        if len(p) == j:
+            return s == memo
+
+        if len(s) == i:
+            while j < len(p):
+                if j == len(p)-1:
+                    return False
+                else:
+                    if p[j+1] == '*':
+                        j = j + 2
+                    else:
+                        return False     
+            return True
+        if len(p) - 1 == j:
+            if p[j] == '.':
+                memo += s[i]
+                return self.dp(s,p,i+1,j+1,memo) 
             else:
-                return False
-        
-        
-        
-        
+                memo += p[j]
+                return self.dp(s,p,i+1,j+1,memo)
+        else:
+            if p[j] == s[i]:
+                if p[j+1] =='*':
+                    result = self.dp(s,p,i,j+2,memo)
+                    if result == True:
+                        return True
+                    else:
+                        memo += p[j]
+                        return self.dp(s,p,i+1,j,memo) 
+                else:
+                    memo += p[j]
+                    return self.dp(s,p,i+1,j+1,memo)
+            elif p[j] == '.':
+                if p[j+1] == '*':
+                    result = self.dp(s,p,i,j+2,memo)
+                    if result == True:
+                        return True
+                    else:
+                        memo += s[i]
+                        return self.dp(s,p,i+1,j,memo) 
+                else:
+                    memo += s[i]
+                    return self.dp(s,p,i+1,j+1,memo)
+            else:
+                if p[j+1] == '*':
+                    return self.dp(s,p,i,j+2,memo)
+                else:
+                    return False
+
         
     def isMatch(self, s, p):
         """
@@ -20,26 +59,6 @@ class Solution(object):
         if p == ".*":
             return True
         else:
-            p_list = list(p)
-            sharp_index = []
-            memo = []
-            normal_index = []
-            add_element = []
-            index = 0
-            for i in p_list:
-                if i == "*":
-                    sharp_index.append(index)
-                    add_element.append(p_list[index -1])
-                else:
-                    if index < len(p_list)-1:
-                        if p_list[index +1] != "*":
-                            memo.append(i)
-                    else:
-                        memo.append(i)
-                index += 1
-            print(sharp_index)
-            print(memo)
-            print(add_element)
-            return self.exp(s, p_list, 0, memo, sharp_index, add_element)
+            return self.dp(s, p, 0, 0, "")
 
-print(Solution().isMatch("aaa","ab*a*c*a"))
+print(Solution().isMatch("aaaaaaaaaaaaaaaaaaab","a*a*a*a*a*a*a*a*a*a*"))
