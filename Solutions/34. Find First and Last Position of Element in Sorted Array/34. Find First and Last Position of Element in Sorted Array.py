@@ -13,6 +13,18 @@ class Solution(object):
                     start_idx = mid
                 if end_idx < mid:
                     end_idx = mid
+                
+                for i in range(mid-1,-1,-1):
+                    if nums[i] == target:
+                        start_idx = i
+                    else:
+                        break
+                for k in range(mid+1, len(nums)):
+                    if nums[k] == target:
+                        end_idx = k
+                    else:
+                        break
+                break
         
         if end_idx == -1:
             return [-1, -1]
@@ -31,4 +43,4 @@ class Solution(object):
         result = self.binaray(min_idx,max_idx,target,nums)
         return result
 
-print(Solution().searchRange([5,7,7,8,8,10],8))
+print(Solution().searchRange([5,7,7,8,8,10], 8))
